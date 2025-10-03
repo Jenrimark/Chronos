@@ -1,0 +1,221 @@
+2025-10-04 01:46:50.883  6882-6882  hronos.calendar         com.chronos.calendar                 I  Late-enabling -Xcheck:jni
+2025-10-04 01:46:52.603  6882-6882  hronos.calendar         com.chronos.calendar                 I  Using CollectorTypeCMC GC.
+2025-10-04 01:46:52.636  6882-6882  hronos.calendar         com.chronos.calendar                 W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+2025-10-04 01:46:52.896  6882-6882  nativeloader            com.chronos.calendar                 D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2025-10-04 01:46:54.038  6882-6882  nativeloader            com.chronos.calendar                 D  Configuring clns-9 for other apk /data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.chronos.calendar
+2025-10-04 01:46:54.061  6882-6882  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e42f8) locale list changing from [] to [en-US]
+2025-10-04 01:46:54.104  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V  Currently set values for:
+2025-10-04 01:46:54.104  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_pkgs=[]
+2025-10-04 01:46:54.104  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_values=[]
+2025-10-04 01:46:54.105  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in per-application setting
+2025-10-04 01:46:54.106  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V  ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+2025-10-04 01:46:54.106  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in ANGLE allowlist or settings, returning default
+2025-10-04 01:46:54.107  6882-6882  GraphicsEnvironment     com.chronos.calendar                 V  Neither updatable production driver nor prerelease driver is supported.
+2025-10-04 01:46:54.170  6882-6882  WM-WrkMgrInitializer    com.chronos.calendar                 D  Initializing WorkManager with default configuration.
+2025-10-04 01:46:54.220  6882-6882  WM-PackageManagerHelper com.chronos.calendar                 D  androidx.work.impl.background.systemjob.SystemJobService enabled
+2025-10-04 01:46:54.220  6882-6882  WM-Schedulers           com.chronos.calendar                 D  Created SystemJobScheduler and enabled SystemJobService
+2025-10-04 01:46:54.254  6882-6908  WM-ForceStopRunnable    com.chronos.calendar                 D  The default process name was not specified.
+2025-10-04 01:46:54.258  6882-6908  WM-ForceStopRunnable    com.chronos.calendar                 D  Performing cleanup operations.
+2025-10-04 01:46:54.328  6882-6909  DisplayManager          com.chronos.calendar                 I  Choreographer implicitly registered for the refresh rate.
+2025-10-04 01:46:54.359  6882-6882  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e3358) locale list changing from [] to [en-US]
+2025-10-04 01:46:54.410  6882-6908  ashmem                  com.chronos.calendar                 E  Pinning is deprecated since Android Q. Please use trim or other methods.
+2025-10-04 01:46:54.472  6882-6882  AppCompatDelegate       com.chronos.calendar                 D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-10-04 01:46:54.478  6882-6882  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9ea6f8) locale list changing from [] to [en-US]
+2025-10-04 01:46:54.730  6882-6909  EGL_emulation           com.chronos.calendar                 I  Opening libGLESv1_CM_emulation.so
+2025-10-04 01:46:54.732  6882-6909  EGL_emulation           com.chronos.calendar                 I  Opening libGLESv2_emulation.so
+2025-10-04 01:46:54.797  6882-6909  HWUI                    com.chronos.calendar                 W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2025-10-04 01:46:54.798  6882-6909  HWUI                    com.chronos.calendar                 W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2025-10-04 01:46:54.928  6882-6882  TabLayout               com.chronos.calendar                 W  MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
+2025-10-04 01:46:54.954  6882-6913  JobInfo                 com.chronos.calendar                 W  Requested important-while-foreground flag for job0 is ignored and takes no effect
+2025-10-04 01:46:54.955  6882-6913  WM-SystemJobScheduler   com.chronos.calendar                 D  Scheduling work ID eb8fd279-880a-46b3-93d8-4e944cc90faaJob ID 0
+2025-10-04 01:46:54.988  6882-6913  WM-GreedyScheduler      com.chronos.calendar                 D  Starting work for eb8fd279-880a-46b3-93d8-4e944cc90faa
+2025-10-04 01:46:55.005  6882-6882  HWUI                    com.chronos.calendar                 W  Image decoding logging dropped!
+2025-10-04 01:46:55.021  6882-6908  WM-Processor            com.chronos.calendar                 D  Processor: processing WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:46:55.052  6882-6882  CompatChangeReporter    com.chronos.calendar                 D  Compat change id reported: 377864165; UID 10219; state: ENABLED
+2025-10-04 01:46:55.056  6882-6882  DesktopModeFlags        com.chronos.calendar                 D  Toggle override initialized to: OVERRIDE_UNSET
+2025-10-04 01:46:55.097  6882-6882  hronos.calendar         com.chronos.calendar                 I  hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+2025-10-04 01:46:55.106  6882-6882  TransactionExecutor     com.chronos.calendar                 E  Failed to execute the transaction: tId:573058352 ClientTransaction{
+                                                                                                    tId:573058352   transactionItems=[
+                                                                                                    tId:573058352     LaunchActivityItem{activityToken=android.os.BinderProxy@96f67a5,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 xflg=0x4 cmp=com.chronos.calendar/.MainActivity },ident=95932975,info=ActivityInfo{ed66f77 com.chronos.calendar.MainActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw360dp w360dp h640dp 320dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mMaxBounds=Rect(0, 0 - 720, 1280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.40 fontWeightAdjustment=0},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw360dp w360dp h640dp 320dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mMaxBounds=Rect(0, 0 - 720, 1280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0},deviceId=0,referrer=com.android.shell,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@ead0038,shareableActivityToken=android.os.BinderProxy@90a5811,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 720, 1280), taskFragmentBounds=Rect(0, 0 - 720, 1280)}}
+                                                                                                    tId:573058352     ResumeActivityItem{mActivityToken=android.os.BinderProxy@96f67a5,procState=-1,isForward=true,shouldSendCompatFakeFocus=false}
+                                                                                                    tId:573058352     Target activity: com.chronos.calendar.MainActivity
+                                                                                                    tId:573058352   ]
+                                                                                                    tId:573058352 }
+2025-10-04 01:46:55.106  6882-6882  AndroidRuntime          com.chronos.calendar                 D  Shutting down VM
+2025-10-04 01:46:55.114  6882-6882  AndroidRuntime          com.chronos.calendar                 E  FATAL EXCEPTION: main
+                                                                                                    Process: com.chronos.calendar, PID: 6882
+                                                                                                    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.chronos.calendar/com.chronos.calendar.MainActivity}: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4280)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4467)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2823)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:9067)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+                                                                                                    	at androidx.appcompat.app.AppCompatDelegateImpl.setSupportActionBar(AppCompatDelegateImpl.java:606)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.setSupportActionBar(AppCompatActivity.java:181)
+                                                                                                    	at com.chronos.calendar.MainActivity.onCreate(MainActivity.kt:28)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:9155)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:9133)
+                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1521)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4262)
+                                                                                                    	... 13 more
+2025-10-04 01:46:55.177  6882-6913  WM-PackageManagerHelper com.chronos.calendar                 D  androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+2025-10-04 01:46:55.209  6882-6882  Process                 com.chronos.calendar                 I  Sending signal. PID: 6882 SIG: 9
+2025-10-04 01:47:02.958  6928-6928  hronos.calendar         com.chronos.calendar                 I  Late-enabling -Xcheck:jni
+2025-10-04 01:47:02.988  6928-6928  hronos.calendar         com.chronos.calendar                 I  Using CollectorTypeCMC GC.
+2025-10-04 01:47:02.990  6928-6928  hronos.calendar         com.chronos.calendar                 W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+2025-10-04 01:47:03.025  6928-6928  nativeloader            com.chronos.calendar                 D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2025-10-04 01:47:05.193  6928-6928  nativeloader            com.chronos.calendar                 D  Configuring clns-9 for other apk /data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.chronos.calendar
+2025-10-04 01:47:05.214  6928-6928  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9ea0b8) locale list changing from [] to [en-US]
+2025-10-04 01:47:05.224  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V  Currently set values for:
+2025-10-04 01:47:05.224  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_pkgs=[]
+2025-10-04 01:47:05.224  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_values=[]
+2025-10-04 01:47:05.224  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in per-application setting
+2025-10-04 01:47:05.225  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V  ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+2025-10-04 01:47:05.225  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in ANGLE allowlist or settings, returning default
+2025-10-04 01:47:05.225  6928-6928  GraphicsEnvironment     com.chronos.calendar                 V  Neither updatable production driver nor prerelease driver is supported.
+2025-10-04 01:47:05.268  6928-6928  WM-WrkMgrInitializer    com.chronos.calendar                 D  Initializing WorkManager with default configuration.
+2025-10-04 01:47:05.322  6928-6928  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+2025-10-04 01:47:05.323  6928-6928  WM-Schedulers           com.chronos.calendar                 D  Created SystemJobScheduler and enabled SystemJobService
+2025-10-04 01:47:05.367  6928-6947  WM-ForceStopRunnable    com.chronos.calendar                 D  The default process name was not specified.
+2025-10-04 01:47:05.367  6928-6947  WM-ForceStopRunnable    com.chronos.calendar                 D  Performing cleanup operations.
+2025-10-04 01:47:05.387  6928-6947  ashmem                  com.chronos.calendar                 E  Pinning is deprecated since Android Q. Please use trim or other methods.
+2025-10-04 01:47:05.448  6928-6928  WM-SystemJobService     com.chronos.calendar                 D  onStartJob for WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:47:05.524  6928-6947  WM-ForceStopRunnable    com.chronos.calendar                 D  Found unfinished work, scheduling it.
+2025-10-04 01:47:05.536  6928-6947  WM-SystemJobScheduler   com.chronos.calendar                 D  Scheduling work ID eb8fd279-880a-46b3-93d8-4e944cc90faaJob ID 0
+2025-10-04 01:47:05.540  6928-6928  WM-SystemJobService     com.chronos.calendar                 D  onStopJob for WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:47:05.585  6928-6949  WM-Processor            com.chronos.calendar                 D  Processor: processing WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:47:05.590  6928-6947  WM-Processor            com.chronos.calendar                 D  WorkerWrapper interrupted for eb8fd279-880a-46b3-93d8-4e944cc90faa
+2025-10-04 01:47:05.590  6928-6947  WM-StopWorkRunnable     com.chronos.calendar                 D  StopWorkRunnable for eb8fd279-880a-46b3-93d8-4e944cc90faa; Processor.stopWork = true
+2025-10-04 01:47:05.594  6928-6949  WM-WorkerWrapper        com.chronos.calendar                 D  Status for eb8fd279-880a-46b3-93d8-4e944cc90faa is ENQUEUED; not doing any work and rescheduling for later execution
+2025-10-04 01:47:05.599  6928-6928  WM-Processor            com.chronos.calendar                 D  Processor eb8fd279-880a-46b3-93d8-4e944cc90faa executed; reschedule = true
+2025-10-04 01:47:05.618  6928-6947  WM-GreedyScheduler      com.chronos.calendar                 D  Cancelling work ID eb8fd279-880a-46b3-93d8-4e944cc90faa
+2025-10-04 01:47:05.631  6928-6947  WM-SystemJobScheduler   com.chronos.calendar                 D  Scheduling work ID eb8fd279-880a-46b3-93d8-4e944cc90faaJob ID 1
+2025-10-04 01:47:05.641  6928-6947  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+2025-10-04 01:47:11.179  6928-6985  ProfileInstaller        com.chronos.calendar                 D  Installing profile for com.chronos.calendar
+2025-10-04 01:47:16.074  7027-7027  hronos.calendar         com.chronos.calendar                 I  Late-enabling -Xcheck:jni
+2025-10-04 01:47:16.110  7027-7027  hronos.calendar         com.chronos.calendar                 I  Using CollectorTypeCMC GC.
+2025-10-04 01:47:16.112  7027-7027  hronos.calendar         com.chronos.calendar                 W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+2025-10-04 01:47:16.128  7027-7027  nativeloader            com.chronos.calendar                 D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2025-10-04 01:47:16.206  7027-7027  nativeloader            com.chronos.calendar                 D  Load /data/user/0/com.chronos.calendar/code_cache/startup_agents/65318d08-agent.so using system ns (caller=<unknown>): ok
+2025-10-04 01:47:16.199  7027-7027  re-initialized>         com.chronos.calendar                 W  type=1400 audit(0.0:580): avc:  granted  { execute } for  path="/data/data/com.chronos.calendar/code_cache/startup_agents/65318d08-agent.so" dev="dm-55" ino=360962 scontext=u:r:untrusted_app:s0:c219,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c219,c256,c512,c768 tclass=file app=com.chronos.calendar
+2025-10-04 01:47:16.219  7027-7027  hronos.calendar         com.chronos.calendar                 W  hiddenapi: DexFile /data/data/com.chronos.calendar/code_cache/.studio/instruments-873176f2.jar is in boot class path but is not in a known location
+2025-10-04 01:47:16.393  7027-7027  hronos.calendar         com.chronos.calendar                 W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2025-10-04 01:47:16.393  7027-7027  hronos.calendar         com.chronos.calendar                 W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2025-10-04 01:47:17.404  7027-7027  nativeloader            com.chronos.calendar                 D  Configuring clns-9 for other apk /data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.chronos.calendar
+2025-10-04 01:47:17.428  7027-7027  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e42f8) locale list changing from [] to [en-US]
+2025-10-04 01:47:17.438  7027-7027  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e3fd8) locale list changing from [] to [en-US]
+2025-10-04 01:47:17.455  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V  Currently set values for:
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_pkgs=[]
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_values=[]
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in per-application setting
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V  ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in ANGLE allowlist or settings, returning default
+2025-10-04 01:47:17.456  7027-7027  GraphicsEnvironment     com.chronos.calendar                 V  Neither updatable production driver nor prerelease driver is supported.
+2025-10-04 01:47:17.531  7027-7027  WM-WrkMgrInitializer    com.chronos.calendar                 D  Initializing WorkManager with default configuration.
+2025-10-04 01:47:17.609  7027-7027  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+2025-10-04 01:47:17.609  7027-7027  WM-Schedulers           com.chronos.calendar                 D  Created SystemJobScheduler and enabled SystemJobService
+2025-10-04 01:47:17.649  7027-7041  WM-ForceStopRunnable    com.chronos.calendar                 D  The default process name was not specified.
+2025-10-04 01:47:17.653  7027-7041  WM-ForceStopRunnable    com.chronos.calendar                 D  Performing cleanup operations.
+2025-10-04 01:47:17.671  7027-7041  ashmem                  com.chronos.calendar                 E  Pinning is deprecated since Android Q. Please use trim or other methods.
+2025-10-04 01:47:17.715  7027-7027  WM-RescheduleReceiver   com.chronos.calendar                 D  Received intent Intent { act=android.intent.action.BOOT_COMPLETED flg=0x9000030 pkg=com.chronos.calendar cmp=com.chronos.calendar/androidx.work.impl.background.systemalarm.RescheduleReceiver (has extras) }
+2025-10-04 01:47:17.724  7027-7041  WM-SystemJobScheduler   com.chronos.calendar                 D  Reconciling jobs
+2025-10-04 01:47:17.726  7027-7042  DisplayManager          com.chronos.calendar                 I  Choreographer implicitly registered for the refresh rate.
+2025-10-04 01:47:17.734  7027-7027  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9ea6f8) locale list changing from [] to [en-US]
+2025-10-04 01:47:17.738  7027-7041  WM-ForceStopRunnable    com.chronos.calendar                 D  Application was force-stopped, rescheduling.
+2025-10-04 01:47:17.763  7027-7041  WM-SystemJobScheduler   com.chronos.calendar                 D  Scheduling work ID eb8fd279-880a-46b3-93d8-4e944cc90faaJob ID 1
+2025-10-04 01:47:17.842  7027-7027  AppCompatDelegate       com.chronos.calendar                 D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-10-04 01:47:17.845  7027-7027  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e8df8) locale list changing from [] to [en-US]
+2025-10-04 01:47:17.861  7027-7045  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+2025-10-04 01:47:17.864  7027-7042  EGL_emulation           com.chronos.calendar                 I  Opening libGLESv1_CM_emulation.so
+2025-10-04 01:47:17.867  7027-7042  EGL_emulation           com.chronos.calendar                 I  Opening libGLESv2_emulation.so
+2025-10-04 01:47:18.103  7027-7042  HWUI                    com.chronos.calendar                 W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2025-10-04 01:47:18.104  7027-7042  HWUI                    com.chronos.calendar                 W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2025-10-04 01:47:18.107  7027-7027  TabLayout               com.chronos.calendar                 W  MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
+2025-10-04 01:47:18.155  7027-7027  HWUI                    com.chronos.calendar                 W  Image decoding logging dropped!
+2025-10-04 01:47:18.165  7027-7027  CompatChangeReporter    com.chronos.calendar                 D  Compat change id reported: 377864165; UID 10219; state: ENABLED
+2025-10-04 01:47:18.167  7027-7027  DesktopModeFlags        com.chronos.calendar                 D  Toggle override initialized to: OVERRIDE_UNSET
+2025-10-04 01:47:18.200  7027-7027  hronos.calendar         com.chronos.calendar                 I  hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+2025-10-04 01:47:18.213  7027-7027  TransactionExecutor     com.chronos.calendar                 E  Failed to execute the transaction: tId:-596098680 ClientTransaction{
+                                                                                                    tId:-596098680   transactionItems=[
+                                                                                                    tId:-596098680     LaunchActivityItem{activityToken=android.os.BinderProxy@69384a3,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 xflg=0x4 cmp=com.chronos.calendar/.MainActivity },ident=145320380,info=ActivityInfo{ed66f77 com.chronos.calendar.MainActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw360dp w360dp h640dp 320dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mMaxBounds=Rect(0, 0 - 720, 1280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.42 fontWeightAdjustment=0},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw360dp w360dp h640dp 320dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mMaxBounds=Rect(0, 0 - 720, 1280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0},deviceId=0,referrer=com.android.shell,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@ead0038,shareableActivityToken=android.os.BinderProxy@90a5811,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 720, 1280), taskFragmentBounds=Rect(0, 0 - 720, 1280)}}
+                                                                                                    tId:-596098680     ResumeActivityItem{mActivityToken=android.os.BinderProxy@69384a3,procState=-1,isForward=true,shouldSendCompatFakeFocus=false}
+                                                                                                    tId:-596098680     Target activity: com.chronos.calendar.MainActivity
+                                                                                                    tId:-596098680   ]
+                                                                                                    tId:-596098680 }
+2025-10-04 01:47:18.213  7027-7027  AndroidRuntime          com.chronos.calendar                 D  Shutting down VM
+2025-10-04 01:47:18.216  7027-7027  AndroidRuntime          com.chronos.calendar                 E  FATAL EXCEPTION: main
+                                                                                                    Process: com.chronos.calendar, PID: 7027
+                                                                                                    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.chronos.calendar/com.chronos.calendar.MainActivity}: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4280)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4467)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2823)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:9067)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+                                                                                                    	at androidx.appcompat.app.AppCompatDelegateImpl.setSupportActionBar(AppCompatDelegateImpl.java:606)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.setSupportActionBar(AppCompatActivity.java:181)
+                                                                                                    	at com.chronos.calendar.MainActivity.onCreate(MainActivity.kt:28)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:9155)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:9133)
+                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1521)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4262)
+                                                                                                    	... 13 more
+2025-10-04 01:48:11.290  7027-7027  Process                 com.chronos.calendar                 I  Sending signal. PID: 7027 SIG: 9
+2025-10-04 01:48:13.181  7071-7071  hronos.calendar         com.chronos.calendar                 I  Late-enabling -Xcheck:jni
+2025-10-04 01:48:13.371  7071-7071  hronos.calendar         com.chronos.calendar                 I  Using CollectorTypeCMC GC.
+2025-10-04 01:48:13.376  7071-7071  hronos.calendar         com.chronos.calendar                 W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+2025-10-04 01:48:13.438  7071-7071  nativeloader            com.chronos.calendar                 D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2025-10-04 01:48:13.536  7071-7071  nativeloader            com.chronos.calendar                 D  Load /data/user/0/com.chronos.calendar/code_cache/startup_agents/65318d08-agent.so using system ns (caller=<unknown>): ok
+2025-10-04 01:48:13.527  7071-7071  re-initialized>         com.chronos.calendar                 W  type=1400 audit(0.0:581): avc:  granted  { execute } for  path="/data/data/com.chronos.calendar/code_cache/startup_agents/65318d08-agent.so" dev="dm-55" ino=360962 scontext=u:r:untrusted_app:s0:c219,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c219,c256,c512,c768 tclass=file app=com.chronos.calendar
+2025-10-04 01:48:13.580  7071-7071  hronos.calendar         com.chronos.calendar                 W  hiddenapi: DexFile /data/data/com.chronos.calendar/code_cache/.studio/instruments-873176f2.jar is in boot class path but is not in a known location
+2025-10-04 01:48:14.313  7071-7071  hronos.calendar         com.chronos.calendar                 W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2025-10-04 01:48:14.314  7071-7071  hronos.calendar         com.chronos.calendar                 W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2025-10-04 01:48:15.232  7071-7071  nativeloader            com.chronos.calendar                 D  Configuring clns-9 for other apk /data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GiLM_HBccQzaraEmCN0Crw==/com.chronos.calendar-iAORz6O19_pc1k54p86aVQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.chronos.calendar
+2025-10-04 01:48:15.262  7071-7071  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e42f8) locale list changing from [] to [en-US]
+2025-10-04 01:48:15.274  7071-7071  hronos.calendar         com.chronos.calendar                 I  AssetManager2(0x72a9cb9e3fd8) locale list changing from [] to [en-US]
+2025-10-04 01:48:15.333  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V  Currently set values for:
+2025-10-04 01:48:15.334  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_pkgs=[]
+2025-10-04 01:48:15.335  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V    angle_gl_driver_selection_values=[]
+2025-10-04 01:48:15.335  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in per-application setting
+2025-10-04 01:48:15.335  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V  ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+2025-10-04 01:48:15.335  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V  com.chronos.calendar is not listed in ANGLE allowlist or settings, returning default
+2025-10-04 01:48:15.335  7071-7071  GraphicsEnvironment     com.chronos.calendar                 V  Neither updatable production driver nor prerelease driver is supported.
+2025-10-04 01:48:15.433  7071-7071  WM-WrkMgrInitializer    com.chronos.calendar                 D  Initializing WorkManager with default configuration.
+2025-10-04 01:48:15.516  7071-7071  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+2025-10-04 01:48:15.516  7071-7071  WM-Schedulers           com.chronos.calendar                 D  Created SystemJobScheduler and enabled SystemJobService
+2025-10-04 01:48:15.547  7071-7125  WM-ForceStopRunnable    com.chronos.calendar                 D  The default process name was not specified.
+2025-10-04 01:48:15.548  7071-7125  WM-ForceStopRunnable    com.chronos.calendar                 D  Performing cleanup operations.
+2025-10-04 01:48:15.705  7071-7125  ashmem                  com.chronos.calendar                 E  Pinning is deprecated since Android Q. Please use trim or other methods.
+2025-10-04 01:48:15.799  7071-7071  WM-SystemJobService     com.chronos.calendar                 D  onStartJob for WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:48:15.896  7071-7127  WM-Processor            com.chronos.calendar                 D  Processor: processing WorkGenerationalId(workSpecId=eb8fd279-880a-46b3-93d8-4e944cc90faa, generation=0)
+2025-10-04 01:48:16.029  7071-7071  WM-WorkerWrapper        com.chronos.calendar                 D  Starting work for com.chronos.calendar.notification.EventReminderWorker
+2025-10-04 01:48:16.119  7071-7127  WM-PackageManagerHelper com.chronos.calendar                 D  Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+2025-10-04 01:48:16.306  7071-7125  WM-WorkerWrapper        com.chronos.calendar                 I  Worker result SUCCESS for Work [ id=eb8fd279-880a-46b3-93d8-4e944cc90faa, tags={ com.chronos.calendar.notification.EventReminderWorker } ]
+2025-10-04 01:48:16.319  7071-7071  WM-Processor            com.chronos.calendar                 D  Processor eb8fd279-880a-46b3-93d8-4e944cc90faa executed; reschedule = false
+2025-10-04 01:48:16.320  7071-7071  WM-SystemJobService     com.chronos.calendar                 D  eb8fd279-880a-46b3-93d8-4e944cc90faa executed on JobScheduler
+2025-10-04 01:48:16.325  7071-7125  WM-GreedyScheduler      com.chronos.calendar                 D  Cancelling work ID eb8fd279-880a-46b3-93d8-4e944cc90faa
+2025-10-04 01:48:16.345  7071-7125  WM-SystemJobScheduler   com.chronos.calendar                 D  Scheduling work ID eb8fd279-880a-46b3-93d8-4e944cc90faaJob ID 1
+2025-10-04 01:48:21.200  7071-7171  ProfileInstaller        com.chronos.calendar                 D  Installing profile for com.chronos.calendar

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_options">
+        <item>@string/reminder_none</item>
+        <item>@string/reminder_at_time</item>
+        <item>@string/reminder_5_min</item>
+        <item>@string/reminder_15_min</item>
+        <item>@string/reminder_30_min</item>
+        <item>@string/reminder_1_hour</item>
+        <item>@string/reminder_1_day</item>
+    </string-array>
+</resources>
+
